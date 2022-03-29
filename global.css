@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    background-color: #BC412B;
+    padding-top: 20px;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navItem {
+    border: 2px solid #555239;
+    border-bottom: none;
+    padding: 5px;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 4px;
+    background-color: #c8ae8d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    text-align:center;
+    color: #555239;
+}
+
+/* a:link {text-decoration: none};
+a:visited {text-decoration: none};
+a:hover {text-decoration: none};
+a:active {text-decoration: none}; */
+
+.container {
+    background-color: #88B9C1;
+    height: 100vh;
+}
+
+.background-blue {
+    background-color: #256069;
+    height: 80vh;
+    width: 80vw;
+    transform: translateY(10vh);
+    margin-left: 10vw;
+    border: solid #c8ae8d 15px;
+}    
+
+.footer {
+    height: 7vh;
+    background-color: #BC412B;
+}
