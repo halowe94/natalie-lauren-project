@@ -46,7 +46,7 @@ a:active {text-decoration: none}; */
 
 /* index css */
 
-.background-blue {
+.background-homepage {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -61,13 +61,13 @@ a:active {text-decoration: none}; */
 #homepage-content2 {
     grid-column: 2 / 3;
     grid-row: 1;
-    width: 50%;
+    width: 80%;
 }
 
 #homepage-content3 {
     grid-column: 1 / 2;
     grid-row: 3;
-    width: 50%;
+    width: 80%;
 }
 
 #homepage-content4 {
@@ -78,13 +78,116 @@ a:active {text-decoration: none}; */
 
 #nat-lauren-1 {
     height: 100%;
+    position: relative;
 }
 
 #nat-lauren-2 {
     height: 100%;
+    position: relative;
+    transform: translateX(11%);
 }
 
 /* end index css */
+
+/* quotes css */
+
+.background-quotes {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#quote-image {
+    grid-column: 1 / 2;
+    grid-row: 1 / 7;
+    /* width: 80%; */
+}
+
+#nat-lauren-3 {
+    height: 100%;
+    position: relative;
+}
+
+#quote-header {
+    font-size: 48px;
+}
+
+.quote {
+    border: solid 3px #555239;
+    padding: 20px;
+    background-color: #88B9C1;
+}
+
+/* end quotes css */
+
+/* themes css */
+
+.background-themes {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#themes-content1 {
+    grid-column: 1 / 3;
+    grid-row: 1 ;
+}
+
+#themes-content2 {
+    grid-column: 1 / 2;
+    grid-row: 2 ;
+}
+
+#themes-content3 {
+    grid-column: 1 / 2;
+    grid-row: 3 ;
+}
+
+#themes-content4 {
+    grid-column: 1 / 2;
+    grid-row: 4 ;
+}
+
+#themes-content5 {
+    grid-column: 1 / 2;
+    grid-row: 5 ;
+}
+
+#themes-content6 {
+    grid-column: 1 / 2;
+    grid-row: 6 ;
+}
+
+#themes-content7 {
+    grid-column: 1 / 3;
+    grid-row: 7 ;
+}
+
+#response1 {
+    grid-column: 2 / 3;
+    grid-row: 2 ;
+}
+
+#response2 {
+    grid-column: 2 / 3;
+    grid-row: 3 ;
+}
+
+#response3 {
+    grid-column: 2 / 3;
+    grid-row: 4 ;
+}
+
+#response4 {
+    grid-column: 2 / 3;
+    grid-row: 5 ;
+}
+
+#response5 {
+    grid-column: 2 / 3;
+    grid-row: 6 ;
+}
+
 
 .footer {
     height: 7vh;
