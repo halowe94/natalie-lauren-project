@@ -44,6 +44,11 @@ a:active {text-decoration: none}; */
     border: solid #c8ae8d 15px;
 } 
 
+.footer {
+    height: 7vh;
+    background-color: #BC412B;
+}
+
 /* index css */
 
 .background-homepage {
@@ -188,8 +193,27 @@ a:active {text-decoration: none}; */
     grid-row: 6 ;
 }
 
+/* end themes css */
 
-.footer {
-    height: 7vh;
-    background-color: #BC412B;
+/* poem css */
+
+.background-poem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+#poem-content1 {
+    grid-column: 1 / 2;
+}
+
+#poem-content2 {
+    grid-column: 2 / 3;
+}
+
+#poem-content1 {
+    grid-column: 3 / 4;
+}
+
+/* end poem css */
+
+
