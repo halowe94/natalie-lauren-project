@@ -220,7 +220,7 @@ a:active {text-decoration: none}; */
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #poem-content1 {
@@ -359,7 +359,7 @@ iframe {
     position: relative; 
 } 
 
+/* end engage css */
 
-
-
+/* media queries */
 
