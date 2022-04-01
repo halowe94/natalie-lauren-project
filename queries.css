@@ -388,10 +388,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    h2 {
+    #themes-h2 {
         font-size: 20px;
     }
-    p {
+    .themes-p {
         font-size: 14px;
     }
     
@@ -471,10 +471,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    h2 {
+    #themes-h2 {
         font-size: 20px;
     }
-    p {
+    .themes-p {
         font-size: 14px;
     }
     
@@ -554,10 +554,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    h2 {
+    #themes-h2 {
         font-size: 24px;
     }
-    p {
+    .themes-p {
         font-size: 16px;
     }
     
@@ -637,10 +637,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    h2 {
+    #themes-h2 {
         font-size: 24px;
     }
-    p {
+    .themes-p {
         font-size: 16px;
     }
     
