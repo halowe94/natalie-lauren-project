@@ -254,7 +254,8 @@ a:active {text-decoration: none}; */
 .engage-rows {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    
 
     /* height:33%; */
 }
@@ -265,8 +266,8 @@ iframe {
 }
 
 #engage-content1 {
-    /* grid-column: 1 / 2 ;
-    grid-row: 1; */
+    /* grid-column: 1 / 2 ;*/
+    grid-row: 1; 
     height: 20%;
 }
 
